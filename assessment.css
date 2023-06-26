@@ -1,0 +1,100 @@
+
+body {
+    background-color: #EDEFEE;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 7px;
+    background-color: #383939;
+    border-radius: 10px;
+    font-size: 1.5em; 
+}
+
+nav li {
+    display: inline-block;
+    width: 13%;
+}
+
+a {
+    color: white;
+    text-decoration: dotted;
+}
+
+article > a {
+    color: blue;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div > p {
+    text-align: right;
+}
+
+.image img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+    }
+    
+    .image {
+    position: relative;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    }
+    
+    .image figcaption{
+    display: flex;
+    flex: 1;
+    position: absolute;
+    font-size: 2rem;
+    color: beige;
+    font-weight: bold;
+    top: 70%;
+    }
+    .image figcaption2 {
+        display: flex;
+        flex: 1;
+        position: absolute;
+        font-size: 1.5rem;
+        color: rgba(238, 231, 231, 0.932);
+        top: 85%;
+    }
